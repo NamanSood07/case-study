@@ -1,0 +1,157 @@
+<html>
+
+<head>
+
+  <title>Case Study</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@1,500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <center>
+    <div class="col-xs-12 header_div">
+      <h1 style="font-size: 70px; font-family: algerian; color: blueviolet;">Case Study
+
+
+      </h1>
+      <br>
+      <br>
+
+    </div>
+    <span style="display: inline;">
+      <h2 style="font-family: segoeprint;color: crimson;">MobileNet &nbsp;&nbsp;<img style="height: 50px;"
+          src="download.png"></h2>
+          &nbsp;&nbsp;&nbsp;&nbsp;<h1 style="font-weight: bolder;font-family: chiller;color: red;">VS</h1>&nbsp;&nbsp;&nbsp;&nbsp;
+      <h2 style="font-family: segoeprint;color: crimson;">Wolfram &nbsp;&nbsp;<img style="height: 50px;"
+          src="wolf.png"></h2>
+          &nbsp;&nbsp;&nbsp;&nbsp;<h1 style="font-weight: bolder;font-family: chiller;color: red;">VS</h1>&nbsp;&nbsp;&nbsp;&nbsp;
+      <h2 style="font-family: segoeprint;color: crimson;">Google Lens &nbsp;&nbsp;<img style="height: 50px;"
+          src="google lens.webp"></h2>
+    </span>
+
+<br>
+<br>
+<br>
+<br>
+
+
+   
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 main_div">
+      <label style="color: darkgreen; font-family: segoe script;">Object 1-Apple</label>
+      <br>
+      <img style="height: 200px;" src="apple.jpg">
+      <br>
+
+      <label style="font-family: lucida calligraphy;color: darkslateblue;"> MobileNet- Peach</label>
+      <br>
+      <label style="font-family: lucida calligraphy;color: rgb(104, 23, 100);"> Wolfram -Apple</label>
+      <br>
+      <label style="font-family: lucida calligraphy;color: rgb(15, 73, 13);"> GoogleLens -Apple</label>
+    </div>
+    
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 main_div">
+      <label style="color: darkgreen; font-family: segoe script;">Object 2-Bottle</label>
+      <br>
+      <img style="height: 200px;" src="bottle.jpg">
+      <br>
+
+      <label style="font-family: lucida calligraphy;color: darkslateblue;"> MobileNet - Water Bottle</label>
+      <br>
+      <label style="font-family: lucida calligraphy;color: rgb(104, 23, 100);"> Wolfram - Bottle</label>
+      <br>
+      <label style="font-family: lucida calligraphy;color: rgb(15, 73, 13);"> GoogleLens - Water Bottle</label>
+    </div>
+    
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 main_div">
+      <label style="color: darkgreen; font-family: segoe script;">Object 3-Pen</label>
+      <br>
+      <img style="height: 200px;" src="pen.jpg">
+      <br>
+
+      <label style="font-family: lucida calligraphy;color: darkslateblue;"> MobileNet - Racket</label>
+      <br>
+      <label style="font-family: lucida calligraphy;color: rgb(104, 23, 100);"> Wolfram - Axe Head</label>
+      <br>
+      <label style="font-family: lucida calligraphy;color: rgb(15, 73, 13);"> GoogleLens - Pen </label>
+    </div>
+    
+
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 main_div">
+      <label style="color: darkgreen; font-family: segoe script;">Object 4-Remote</label>
+      <br>
+      <img style="height: 200;" src="remote.jpg">
+      <br>
+
+      <label style="font-family: lucida calligraphy;color: darkslateblue;"> MobileNet  - Remote</label>
+      <br>
+      <label style="font-family: lucida calligraphy;color: rgb(104, 23, 100);"> Wolfram  -Controler</label>
+      <br>
+      <label style="font-family: lucida calligraphy;color: rgb(15, 73, 13);"> GoogleLens  - Remote Control</label>
+    </div>
+   
+
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 main_div">
+      <label style="color: darkgreen; font-family: segoe script;">Object 5-Book</label>
+      <br>
+      <img style="height: 200px;" src="book.jpg">
+      <br>
+
+      <label style="font-family: lucida calligraphy;color: darkslateblue;"> MobileNet  - Book Jacket</label>
+      <br>
+      <label style="font-family: lucida calligraphy;color: rgb(104, 23, 100);"> Wolfram  - Book</label>
+      <br>
+      <label style="font-family: lucida calligraphy;color: rgb(15, 73, 13);"> GoogleLens  - Book</label>
+    </div>
+    
+
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 main_div">
+      <label style="color: darkgreen; font-family: segoe script;">Object 6-Pouch</label>
+      <br>
+      <img style="height: 200px;" src="pouch.jpg">
+      <br>
+
+      <label style="font-family: lucida calligraphy;color: darkslateblue;"> MobileNet  - Can</label>
+      <br>
+      <label style="font-family: lucida calligraphy;color: rgb(104, 23, 100);"> Wolfram - Can</label>
+      <br>
+      <label style="font-family: lucida calligraphy;color: rgb(15, 73, 13);"> GoogleLens Modal - Pouch</label>
+    </div>
+    
+
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 main_div">
+      <label style="color: darkgreen; font-family: segoe script;">Object 7-Slippers</label>
+      <br>
+      <img style="height: 200px;" src="slipper.jpg">
+      <br>
+
+      <label style="font-family: lucida calligraphy;color: darkslateblue;"> MobileNet  - Phone</label>
+      <br>
+      <label style="font-family: lucida calligraphy;color: rgb(104, 23, 100);"> Wolfram  - Shoe</label>
+      <br>
+      <label style="font-family: lucida calligraphy;color: rgb(15, 73, 13);"> GoogleLens  - Sandles</label>
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <br>
+    <div class="copy_right_footer" style="font-family: Showcard Gothic;">
+      Developed By-Naman Sood
+      </div>
+  </center>
+</body>
+
+</html>
